@@ -60,14 +60,11 @@ Tools & Technologies
 Project Structure
 
 Profitability-Analysis-Revenue-Vs-Profit/
-│
-├── data/
-│   ── raw_dataset.csv          
-│
-├── notebooks/
-│   ── profitability_analysis.ipynb  
-│
+
 ├── visuals/
 │   ── dashboard.png            # Dashboard screenshot
 │
-└── README.md
+├── README.md
+│
+└── notebooks/
+    ── profitability_analysis.ipynb  
