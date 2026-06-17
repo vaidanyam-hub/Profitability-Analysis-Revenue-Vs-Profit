@@ -1,52 +1,116 @@
-**Profitability Analysis — Revenue vs Profit Diagnostic**
+# Profitability Analysis: Revenue vs Profit Diagnostic
 
-**Why is revenue growing but profit declining?**
+## Why Is Revenue Growing but Profit Declining?
 
-This project investigates the paradox of rising revenue alongside collapsing profit margins using end-to-end data analysis and visualization.
+This project investigates the paradox of rising revenue alongside collapsing profit margins through end-to-end data analysis and visualization.
 
-**Problem Statement**
+---
 
-A company experienced continuous month-over-month revenue growth, yet profit margins collapsed sharply — from +5.8% to -29%, including loss-making months. The business needed to understand why and what to do about it.
+## Business Problem
 
-**Objective**
-1) Identify the root causes of profit erosion
-2) Quantify the impact of each contributing factor
-3) Deliver actionable, data-driven recommendations to restore profitability
+The company experienced continuous month-over-month revenue growth, yet profit margins declined sharply—from **+5.8%** to **-29%**, including multiple loss-making months.
 
-**Dashboard Preview**
-Dashboard.png
-[Profitability Analysis Dashboard](dashboard.png)
+The business needed to understand:
 
-*5 KPI Views included:*
+* Why profits were declining despite growing sales
+* Which factors were driving margin compression
+* What actions could restore profitability
 
-**KPI View**
-1) Revenue vs Profit Trend - MoM comparison of revenue growth vs profit decline
-2) Monthly Margin % - Tracks margin compression over time
-3) Return Rate Analysis - Monitors return rate surge from 3% → 18%
-4) Shipping Cost by Region - Identifies regions with compounding cost issues
-5) Top 10 Revenue Products - Highlights which products drive vs drain profitability
+---
 
-**Key Findings**
+## Project Objectives
 
-After end-to-end exploratory data analysis, 3 root causes were identified:
+* Identify the root causes of profit erosion
+* Quantify the impact of each contributing factor
+* Deliver actionable, data-driven recommendations to improve profitability
 
-1. Return Rate Surge
-Return rate climbed from 3% → 18%
-High-return products continued to be promoted, amplifying losses
+---
 
-2. Aggressive Discounting
-Discounts were applied without margin thresholds
-Contribution margin eroded even as top-line revenue grew
+## Dashboard Preview
 
-3. Regional Shipping Cost Explosion
-Shipping costs compounded losses in specific regions
-No cost-ceiling policy was in place for high-distance deliveries
+![Executive Profitability Dashboard](dashboard.png)
 
-**Recommendations**
+### KPI Views Included
 
-*Issue*
-1) High return rate - Implement return rate threshold alerts per product category
-2) Discount erosion - Set minimum margin floor before applying discounts
+1. **Revenue vs Profit Trend**
+   Month-over-month comparison of revenue growth and profit decline.
+
+2. **Monthly Margin Trend**
+   Tracks margin compression over time.
+
+3. **Return Rate Analysis**
+   Monitors the increase in return rates from approximately **3% to 18%**.
+
+4. **Average Shipping Cost by Region**
+   Identifies regions contributing to higher operational costs.
+
+5. **Top 10 Revenue Products**
+   Highlights products generating the highest revenue.
+
+---
+
+## Key Findings
+
+After performing end-to-end exploratory data analysis, three major drivers of declining profitability were identified.
+
+### 1. Return Rate Surge
+
+* Return rates increased from **3% to 18%**
+* High-return products continued to be promoted
+* Revenue, shipping, and product costs were negatively impacted
+
+### 2. Aggressive Discounting
+
+* Discounts were applied without margin thresholds
+* Revenue growth became volume-driven rather than profit-driven
+* Contribution margins declined significantly
+
+### 3. Rising Shipping Costs
+
+* Shipping costs amplified losses in certain regions
+* No effective cost-control strategy was in place
+* Logistics expenses reduced overall profitability
+
+---
+
+## Recommendations
+
+| Business Issue   | Recommendation                                                         |
+| ---------------- | ---------------------------------------------------------------------- |
+| High Return Rate | Implement return-rate threshold alerts for product categories          |
+| Discount Erosion | Set minimum margin requirements before applying discounts              |
+| Shipping Costs   | Introduce region-based shipping caps and renegotiate carrier contracts |
+
+---
+
+## Tools & Technologies
+
+* **Programming Language:** Python
+* **Data Analysis:** Pandas, NumPy
+* **Data Visualization:** Matplotlib
+* **Development Environment:** Google Colab
+* **Data Source:** Kaggle Dataset
+* **Reporting & Analysis:** Exploratory Data Analysis (EDA)
+
+---
+
+## Project Structure
+
+```text
+Profitability-Analysis-Revenue-Vs-Profit/
+
+├── dashboard.png
+├── README.md
+└── profitability_analysis.ipynb
+```
+
+---
+
+## Business Impact
+
+The analysis revealed that increasing revenue alone is not a reliable indicator of business health. Rising return rates, aggressive discounting, and increasing shipping costs collectively contributed to declining profitability.
+
+This project demonstrates how data-driven analysis can uncover operational inefficiencies and support strategic business decisions.
 3) Shipping costs - Introduce region-based shipping cost caps and renegotiate carrier contracts
 
 **Tools & Technologies**
