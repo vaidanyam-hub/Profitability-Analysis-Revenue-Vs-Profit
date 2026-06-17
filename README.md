@@ -9,9 +9,9 @@ Problem Statement
 A company experienced continuous month-over-month revenue growth, yet profit margins collapsed sharply — from +5.8% to -29%, including loss-making months. The business needed to understand why and what to do about it.
 
 Objective
-Identify the root causes of profit erosion
-Quantify the impact of each contributing factor
-Deliver actionable, data-driven recommendations to restore profitability
+1) Identify the root causes of profit erosion
+2) Quantify the impact of each contributing factor
+3) Deliver actionable, data-driven recommendations to restore profitability
 
 Dashboard Preview
 Dashboard.png
@@ -20,11 +20,11 @@ Dashboard.png
 5 KPI Views included:
 
 KPI View
-Revenue vs Profit Trend - MoM comparison of revenue growth vs profit decline
-Monthly Margin % - Tracks margin compression over time
-Return Rate Analysis - Monitors return rate surge from 3% → 18%
-Shipping Cost by Region - Identifies regions with compounding cost issues
-Top 10 Revenue Products - Highlights which products drive vs drain profitability
+1) Revenue vs Profit Trend - MoM comparison of revenue growth vs profit decline
+2) Monthly Margin % - Tracks margin compression over time
+3) Return Rate Analysis - Monitors return rate surge from 3% → 18%
+4) Shipping Cost by Region - Identifies regions with compounding cost issues
+5) Top 10 Revenue Products - Highlights which products drive vs drain profitability
 
 Key Findings
 
@@ -45,18 +45,17 @@ No cost-ceiling policy was in place for high-distance deliveries
 Recommendations
 
 Issue
-High return rate - Implement return rate threshold alerts per product category
-Discount erosion - Set minimum margin floor before applying discounts
-Shipping costs - Introduce region-based shipping cost caps and renegotiate carrier contracts
+1) High return rate - Implement return rate threshold alerts per product category
+2) Discount erosion - Set minimum margin floor before applying discounts
+3) Shipping costs - Introduce region-based shipping cost caps and renegotiate carrier contracts
 
 Tools & Technologies
-Category
-Language - Python
-Data Analysis - Pandas, NumPy
-Visualization - Matplotlib, Seaborn
-Environment - Google Colab
-Data Source - Kaggle Dataset
-Reporting - Excel, EDA Dashboard
+1) Language - Python
+2) Data Analysis - Pandas, NumPy
+3) Visualization - Matplotlib, Seaborn
+4) Environment - Google Colab
+5) Data Source - Kaggle Dataset
+6) Reporting - Excel, EDA Dashboard
 
 Project Structure
 
