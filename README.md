@@ -1,130 +1,66 @@
-# Profitability Analysis Report
+Profitability Analysis — Revenue vs Profit Diagnostic
 
-## Project Overview
 
-A business analytics project designed to investigate why company profits are declining despite continuous revenue growth.
+Why is revenue growing but profit declining?
 
-The objective was to identify the key drivers of profit erosion and provide actionable recommendations using data analysis and visualization.
+This project investigates the paradox of rising revenue alongside collapsing profit margins using end-to-end data analysis and visualization.
 
----
+Problem Statement
 
-## Business Problem
+A company experienced continuous month-over-month revenue growth, yet profit margins collapsed sharply — from +5.8% to -29%, including loss-making months. The business needed to understand why and what to do about it.
 
-The company experienced:
+Objective
 
-* Increasing sales revenue
-* Declining profit margins
-* Loss-making months
 
-The goal was to identify the root causes behind the profitability decline.
+Identify the root causes of profit erosion
+Quantify the impact of each contributing factor
+Deliver actionable, data-driven recommendations to restore profitability
 
----
+Dashboard Preview
+Dashboard.png
 
-## Tools Used
+<!-- ![Profitability Analysis Dashboard](dashboard.png) -->
+5 KPI Views included:
 
-* SQL
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Excel
-* Power BI
+KPI ViewDescriptionRevenue vs Profit TrendMoM comparison of revenue growth vs profit declineMonthly Margin %Tracks margin compression over timeReturn Rate AnalysisMonitors return rate surge from 3% → 18%Shipping Cost by RegionIdentifies regions with compounding cost issuesTop 10 Revenue ProductsHighlights which products drive vs drain profitability
 
----
+Key Findings
 
-## Dataset
+After end-to-end exploratory data analysis, 3 root causes were identified:
 
-The analysis used:
+1. Return Rate Surge
+Return rate climbed from 3% → 18%
+High-return products continued to be promoted, amplifying losses
 
-* Transactional Order Data
-* Product Cost Data
-* Shipping Cost Data
-* Return Records
+2. Aggressive Discounting
+Discounts were applied without margin thresholds
+Contribution margin eroded even as top-line revenue grew
 
----
 
-## Analysis Performed
+3. Regional Shipping Cost Explosion
+Shipping costs compounded losses in specific regions
+No cost-ceiling policy was in place for high-distance deliveries
 
-### Revenue Trend Analysis
+Recommendations
 
-Tracked monthly revenue growth patterns.
+IssueRecommendationHigh return rateImplement return rate threshold alerts per product categoryDiscount erosionSet minimum margin floor before applying discountsShipping costsIntroduce region-based shipping cost caps and renegotiate carrier contracts
 
-### Profit Trend Analysis
+Tools & Technologies
 
-Measured profitability and identified declining trends.
+CategoryToolsLanguagePythonData AnalysisPandas, NumPyVisualizationMatplotlib, SeabornEnvironmentGoogle ColabData SourceKaggle DatasetReportingExcel, EDA Dashboard
 
-### Margin Analysis
+Project Structure
 
-Calculated monthly margins and detected margin compression.
+Profitability-Analysis-Revenue-Vs-Profit/
+│
+├── data/
+│   └── raw_dataset.csv          
+│
+├── notebooks/
+│   └── profitability_analysis.ipynb  
+│
+├── visuals/
+│   └── dashboard.png            # Dashboard screenshot
+│
+└── README.md
 
-### Discount Impact Evaluation
-
-Analyzed the effect of discounts on contribution margin.
-
-### Return Rate Analysis
-
-Monitored return behavior and quantified revenue leakage.
-
-### Shipping Cost Analysis
-
-Evaluated shipping expenses across regions.
-
----
-
-## Key Findings
-
-### Revenue Increased While Profit Declined
-
-Revenue showed consistent growth, but profits steadily decreased.
-
-### Margin Collapse
-
-Margins dropped from approximately +5.8% to negative values in several months.
-
-### High Return Rates
-
-Return rates increased significantly and contributed to:
-
-* Revenue loss
-* Product cost loss
-* Additional shipping expenses
-
-### Aggressive Discounting
-
-Sales growth was primarily driven by discounts rather than profitable transactions.
-
-### Shipping Cost Pressure
-
-Shipping expenses further reduced profitability, especially when combined with high return volumes.
-
----
-
-## Dashboard Insights
-
-The Power BI dashboard contains:
-
-* Revenue vs Profit Trend
-* Monthly Margin Trend
-* Return Rate Trend
-* Shipping Cost by Region
-* Top Revenue Generating Products
-
----
-
-## Business Recommendations
-
-1. Optimize discount strategy.
-2. Reduce product return rates.
-3. Improve logistics efficiency.
-4. Focus on profit-driven sales targets.
-5. Monitor margins alongside revenue.
-
----
-
-## Final Conclusion
-
-Revenue growth alone is not a reliable indicator of business success.
-
-The analysis revealed that rising returns, aggressive discounting, and shipping costs were the primary drivers of declining profitability.
-
-A shift toward profit-focused decision-making is required to ensure sustainable business growth.
