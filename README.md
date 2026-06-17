@@ -22,7 +22,12 @@ Dashboard.png
 <!-- ![Profitability Analysis Dashboard](dashboard.png) -->
 5 KPI Views included:
 
-KPI ViewDescriptionRevenue vs Profit TrendMoM comparison of revenue growth vs profit declineMonthly Margin %Tracks margin compression over timeReturn Rate AnalysisMonitors return rate surge from 3% → 18%Shipping Cost by RegionIdentifies regions with compounding cost issuesTop 10 Revenue ProductsHighlights which products drive vs drain profitability
+KPI View
+Revenue vs Profit Trend - MoM comparison of revenue growth vs profit decline
+Monthly Margin % - Tracks margin compression over time
+Return Rate Analysis - Monitors return rate surge from 3% → 18%
+Shipping Cost by Region - Identifies regions with compounding cost issues
+Top 10 Revenue Products - Highlights which products drive vs drain profitability
 
 Key Findings
 
