@@ -28,7 +28,7 @@ The business needed to understand:
 
 ## Dashboard Preview
 
-![Executive Profitability Dashboard](dashboard.png)
+![Executive Profitability Dashboard](Dashboard.png)
 
 ### KPI Views Included
 
@@ -112,23 +112,3 @@ The analysis revealed that increasing revenue alone is not a reliable indicator 
 
 This project demonstrates how data-driven analysis can uncover operational inefficiencies and support strategic business decisions.
 3) Shipping costs - Introduce region-based shipping cost caps and renegotiate carrier contracts
-
-**Tools & Technologies**
-1) Language - Python
-2) Data Analysis - Pandas, NumPy
-3) Visualization - Matplotlib, Seaborn
-4) Environment - Google Colab
-5) Data Source - Kaggle Dataset
-6) Reporting - Excel, EDA Dashboard
-
-**Project Structure**
-
-Profitability-Analysis-Revenue-Vs-Profit/
-
-├── visuals/
-│   ── dashboard.png            # Dashboard screenshot
-│
-├── README.md
-│
-└── notebooks/
-    ── profitability_analysis.ipynb  
