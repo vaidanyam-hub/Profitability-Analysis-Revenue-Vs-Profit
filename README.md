@@ -1,32 +1,32 @@
-Profitability Analysis — Revenue vs Profit Diagnostic
+**Profitability Analysis — Revenue vs Profit Diagnostic**
 
-Why is revenue growing but profit declining?
+**Why is revenue growing but profit declining?**
 
 This project investigates the paradox of rising revenue alongside collapsing profit margins using end-to-end data analysis and visualization.
 
-Problem Statement
+**Problem Statement**
 
 A company experienced continuous month-over-month revenue growth, yet profit margins collapsed sharply — from +5.8% to -29%, including loss-making months. The business needed to understand why and what to do about it.
 
-Objective
+**Objective**
 1) Identify the root causes of profit erosion
 2) Quantify the impact of each contributing factor
 3) Deliver actionable, data-driven recommendations to restore profitability
 
-Dashboard Preview
+**Dashboard Preview**
 Dashboard.png
+[Profitability Analysis Dashboard](dashboard.png)
 
-<!-- ![Profitability Analysis Dashboard](dashboard.png) -->
-5 KPI Views included:
+*5 KPI Views included:*
 
-KPI View
+**KPI View**
 1) Revenue vs Profit Trend - MoM comparison of revenue growth vs profit decline
 2) Monthly Margin % - Tracks margin compression over time
 3) Return Rate Analysis - Monitors return rate surge from 3% → 18%
 4) Shipping Cost by Region - Identifies regions with compounding cost issues
 5) Top 10 Revenue Products - Highlights which products drive vs drain profitability
 
-Key Findings
+**Key Findings**
 
 After end-to-end exploratory data analysis, 3 root causes were identified:
 
@@ -42,14 +42,14 @@ Contribution margin eroded even as top-line revenue grew
 Shipping costs compounded losses in specific regions
 No cost-ceiling policy was in place for high-distance deliveries
 
-Recommendations
+**Recommendations**
 
-Issue
+*Issue*
 1) High return rate - Implement return rate threshold alerts per product category
 2) Discount erosion - Set minimum margin floor before applying discounts
 3) Shipping costs - Introduce region-based shipping cost caps and renegotiate carrier contracts
 
-Tools & Technologies
+**Tools & Technologies**
 1) Language - Python
 2) Data Analysis - Pandas, NumPy
 3) Visualization - Matplotlib, Seaborn
@@ -57,7 +57,7 @@ Tools & Technologies
 5) Data Source - Kaggle Dataset
 6) Reporting - Excel, EDA Dashboard
 
-Project Structure
+**Project Structure**
 
 Profitability-Analysis-Revenue-Vs-Profit/
 
