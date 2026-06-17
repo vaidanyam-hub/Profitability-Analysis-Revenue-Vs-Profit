@@ -54,13 +54,13 @@ Project Structure
 Profitability-Analysis-Revenue-Vs-Profit/
 │
 ├── data/
-│   └── raw_dataset.csv          
+│   ── raw_dataset.csv          
 │
 ├── notebooks/
-│   └── profitability_analysis.ipynb  
+│   ── profitability_analysis.ipynb  
 │
 ├── visuals/
-│   └── dashboard.png            # Dashboard screenshot
+│   ── dashboard.png            # Dashboard screenshot
 │
 └── README.md
 
